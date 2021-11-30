@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style >
+   	label{
+   		text-decoration: underline;
+   	    font-weight: 800;
+   	}
+   .a {
+			color:royalblue;
+			font-family: Arial Black;
+			font-size: 16px;
+			font-style: italic ;
+		}
+		span{color: rosybrown;
+			 font-style: oblique;
+
+
+
+		}
+		
+
+		.a span{
+			font-style: inherit;
+			font-family: inherit;
+			font-size: inherit;
+				color: inherit;
+		}
+</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">                                      
+	<title>About--110306042</title>
+
+</head>
+<body>
+<form>
+<table  style="border: 3px#cccccc solid; " cellpadding="10"border='1'>
+<thead>
+ 	<tr>	
+ 		<th colspan="3" style="font-style: italic;">About--110306042</th>
+	</tr>
+</thead><tbody>
+	
+<tr>
+	
+	<td rowspan="3">
+
+	<img src="spiderman.jpg" width="90" height="86"><br>personal photo
+
+	</td>
+
+	
+	<td colspan="2" >
+		<label style="font-style: italic;">Name:
+			<input type="text" name="name" size="25"
+		 	maxlength="30">	
+		</label><br>
+	
+			<label >Gender:
+		   <input type="radio" name="gender">Male
+			<input type="radio" name="gender">Female
+			<input type="radio" name="gender">Other
+			</label>
+
+	</td>
+
+</tr>
+<tr style="font-style:normal;">	
+	<td colspan="1">
+	   <label>County:</label>
+	   	<select name="county">
+	   		<option value="taipei">Taipei</option>
+	   		<option value="taichung">Taichung</option>
+	   		<option value="taoung">Taoyuan</option>
+	   		<option value="tainan">Tainan</option>
+	   		
+	   		
+   </td>
+	   <td>	
+	   	<label>Birthday:</label>
+	   		<input type="date" name="birthday">
+	   </td>
+</tr>
+	<tr>
+		<td colspan="2">
+			<label>E-mail:</label>
+			<input type="text" name="email" size="25" maxlength="30">
+<tr>
+	<td colspan="1">
+			<label>Hobby</label>
+			<td colspan="2">
+			<input type="checkbox" name="hobby" value="swimming">Swimming
+			<input type="checkbox" name="hobby" value="volley ball">Volley ball
+			<input type="checkbox" name="hobby" value="movie">Movie
+			<input type="checkbox" name="hobby" value="game">Game
+			<input type="checkbox" name="hobby" value="sleep">
+			sleep
+		</td>
+	</td>
+<tr>	
+	<td colspan="1">
+		<label>Skill</label>
+		<td colspan="2">
+			<input type="checkbox" name="java">Java 
+			<input type="checkbox" name="html">HTML
+			<input type="checkbox" name="python">Python
+			<input type="checkbox" name="microsoft office">Microsoft Office
+			<input type="checkbox" name="premiere">
+			Premiere
+<tr>
+	<td >
+		<label class="a">Say Som<span>eth</span>ing</label>
+	</td>
+	<td colspan="2" >	
+		<textarea rows="3" cols="64" >Say something here.</textarea>
+		
+	</td>
+
+
+
+</tr>
+<tr>
+	<td colspan="3" >
+	<input type="submit" value="submit">
+	<input type="reset" value="clear">
+</td>
+
+</tr>
+
+</tbody>
+
+
+
+
+</table>
+</form>
+</body>
+</html>
